@@ -34,3 +34,7 @@ chris.greeting(@name)
 christina = Students.new("Christina")
 
 christina.greeting(@name)
+
+chris.teach
+christina.learn
+christina.teach # => this won't work since the method teach is unqiue to the class Instructor
