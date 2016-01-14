@@ -4,6 +4,9 @@ class Person
     @name = name
   end
 
+  def greeting(name)
+    puts "Hi, my name is #{name}.s"
+  end
 end
 
 
