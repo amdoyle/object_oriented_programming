@@ -30,3 +30,7 @@ end
 chris = Instructor.new("Chris")
 
 chris.greeting(@name)
+
+christina = Students.new("Christina")
+
+christina.greeting(@name)
